@@ -14,7 +14,7 @@ import {BiBook} from 'react-icons/bi'
 
 
 import { useState } from 'react';
-import Footer from './HOME/Footer';
+import Footer from './Home/Footer';
 import Angular from './Mycourses/Angular';
 import Flutter from './Mycourses/Flutter';
 import ReactNative from './Mycourses/ReactNative';
