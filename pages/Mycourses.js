@@ -14,7 +14,7 @@ import {BiBook} from 'react-icons/bi'
 
 
 import { useState } from 'react';
-import Footer from './Home/Footer';
+import Footer from './Footer';
 import Angular from './Mycourses/Angular';
 import Flutter from './Mycourses/Flutter';
 import ReactNative from './Mycourses/ReactNative';
@@ -23,7 +23,7 @@ import Dsa from './Mycourses/Dsa';
 import CPlus from './Mycourses/CPlus';
 import JavaV from './Mycourses/JavaV';
 import Python from './Mycourses/Python';
-import Java from './Cards/Java';
+
 
 const Mycourses = () => {
   const [showModal, setShowModal] = useState(true);

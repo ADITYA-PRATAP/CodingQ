@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Card.module.css';
-import Java from '../Cards/Java';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

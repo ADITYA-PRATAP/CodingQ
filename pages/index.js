@@ -2,12 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter, Source_Serif_4 } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import PicCards from '../Home/Piccards'
+import PicCards from './Piccards'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Number from '../Home/Number'
-import Footer from './Home/Footer'
-import Nav from '../Home/Nav'
+import Number from './Number'
+import Footer from './Footer'
+import Nav from './Nav'
 
 
 

@@ -1,30 +1,26 @@
-import React, { useState } from 'react';
-import Modal from './Modal2';
-import styles1 from '@/styles/Modal.module.css';
+import React from 'react'
+import styles from '@/styles/Number.module.css';
+import Java from './Cards/Java';
+import Cplusplus from './Cards/Cplusplus';
+import Python from './Cards/Python';
 
-
-const HomePage = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const handleToggleModal = () => {
-    setShowModal(!showModal);
-  };
-
+const Demo = () => {
   return (
-    <div>
-      <h1 className={styles1.title}>My Page</h1>
-      <button className={styles1.button} onClick={handleToggleModal}>
-        Toggle Modal
-      </button>
-
-      {showModal && (
-        <Modal onClose={handleToggleModal}>
-          <h2>This is a modal!</h2>
-          <p>Some content in the modal.</p>
-        </Modal>
-      )}
+    <section  className={styles.main4}>
+    <h1 className={styles.font}>Our Courses</h1>
+    
+    <div className={styles.card_Insider}>
+    <div className={styles.child}>
+      <div className='ml-2 inline-block'><Java/></div>
+      <div className='ml-20 inline-block'><Cplusplus/></div>
+      </div>
+      <div className={styles.child}>
+      <div className='ml-20 '><Python/></div>
+      </div>
     </div>
-  );
-};
+      
+    </section>
+  )
+}
 
-export default HomePage;
+export default Demo
