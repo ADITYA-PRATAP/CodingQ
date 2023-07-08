@@ -4,11 +4,11 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import PicCards from './Home/Piccards'
-import Number from './Home/Number'
-import Footer from './Home/Footer'
-import Nav2 from './Home/Nav2'
-import Demo from './Home/Demo'
+import PicCards from '../Home/Piccards'
+import Number from '../Home/Number'
+import Footer from '../Home/Footer'
+import Nav2 from '../Home/Nav2'
+import Demo from '../Home/Demo'
 
 const Home = () => {
 
