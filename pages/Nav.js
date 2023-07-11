@@ -37,7 +37,7 @@ const Nav = (props) => {
             </li>
             
              <li>
-               <Link href='/Myourses'>Courses</Link>
+               <Link href='/Mycourses'>Courses</Link>
              </li> 
            
 
