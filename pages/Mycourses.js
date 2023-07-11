@@ -557,7 +557,7 @@ const handleEnroll15=()=>{
            
           </div>
         </section> : " "}
-        <Footer />
+        <Footer1/>
 
       </section>
 
