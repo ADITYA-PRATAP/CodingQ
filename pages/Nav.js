@@ -35,12 +35,10 @@ const Nav = (props) => {
             <li>
               <Link href='/'>Home</Link>
             </li>
-            <li>
-              <Link href='/About'>About</Link>
-            </li>
-            {/* <li>
-              <Link href='/Courses'>Courses</Link>
-            </li> */}
+            
+             <li>
+               <Link href='/Myourses'>Courses</Link>
+             </li> 
            
 
             <button className='btn space' onClick={handleToggleModal}>
