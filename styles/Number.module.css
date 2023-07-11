@@ -2,9 +2,17 @@
     display: inline-block;
     font-family: 'Raleway', sans-serif;
 }
+.footer1{
+    /* background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%); */
+    /* background-color: #000000; */
+    background: linear-gradient(to left, #ffffff, #abe3e5 0%, #c0f7f0 0%, #ffffff 75%);
+
+
+}
 .footer{
     background: linear-gradient(to left,#ffffff  , #abe3e5 0%, #b0bdef 0%, #ffffff 55%);
-
+    /* background-color: #000000; */
+    /* background: linear-gradient(to left, #ffffff, #abe3e5 0%, #c0f7f0 0%, #ffffff 75%); */
 }
 .main4{
     width: 100vw;
