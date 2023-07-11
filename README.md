@@ -56,7 +56,9 @@ Feel free to explore and modify the code to suit your specific requirements.
 
 To deploy the Next.js application to a production environment, you can follow the deployment instructions provided by Next.js. Typically, you would need to build the project and deploy the resulting build to a hosting provider.
 
-#https://coding-q-oyd9.vercel.app/
+```Deplyed Link
+https://coding-q-oyd9.vercel.app/
+```
 
 ## Contributing
 
