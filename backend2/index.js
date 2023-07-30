@@ -8,7 +8,8 @@ app.use((req, res, next) => {
 // app.use(express());
 const port = 5000;
 const mongoB=require('./db');
-
+var cors = require('cors');
+  app.use(cors());
 mongoB();
 app.use(express.json());
 
